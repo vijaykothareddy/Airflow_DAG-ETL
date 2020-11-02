@@ -12,8 +12,8 @@ Write a DAG ( Dynamic Acyclic Graph ) to orchestate the workflow of below tasks 
 - [Used Tools](#used-tools)
 - [Apache Airflow](#Airflow)
   - DAG
-      - [ETL](DAG/asset_details_hook.py)
-      - [Self-Check](DAG/file_check.py)
+      - [ETL](DAGs/asset_details_hook.py)
+      - [Self-Check](DAGs/file_check.py)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
 
