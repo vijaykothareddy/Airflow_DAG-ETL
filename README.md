@@ -22,6 +22,7 @@ Write a DAG ( Dynamic Acyclic Graph ) to orchestate the workflow of below tasks 
 ### Explain the data set
 
 The JSON response from S3 Website enpoints.
+- [Sample Data File](Dags/data_formatted.json)
 
 
 # Used Tools
