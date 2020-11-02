@@ -39,7 +39,7 @@ Python
 
 
 # Airflow
-   - [Setup](Data-Engineering/Blogs_Code/Airflow_Configuration.MD)
+   - [Setup](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Blogs_Code/Airflow_Configuration.MD)
 
 # Follow Me On
 Add the link to your LinkedIn Profile
