@@ -1,9 +1,10 @@
 # Airflow_DAG-ETL
-Setup workflow to capture the response and upload to S3 as json file.  Covert JSON to CSV with transformation.
+Setup workflow to perform ETL of S3 website endpoint.
 
 # Introduction & Goals
 Write a DAG ( Dynamic Acyclic Graph ) to orchestate the workflow of below tasks on Airflow.
-
+   1. Capture S3 website endpoint GET response and write to S3 as JSON file.
+   2. Transform the response and write to S3 as CSV
 
 # Contents
 
@@ -11,8 +12,8 @@ Write a DAG ( Dynamic Acyclic Graph ) to orchestate the workflow of below tasks 
 - [Used Tools](#used-tools)
 - [Apache Airflow](#Airflow)
   - DAG
-      - [ETL](Code/NYC_Taxi_Trip_DataAnalysis.ipynb)
-      - [Self-Check](Images/)
+      - [ETL](DAG/asset_details_hook.py)
+      - [Self-Check](DAG/file_check.py)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
 
