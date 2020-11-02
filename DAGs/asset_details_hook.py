@@ -32,7 +32,7 @@ import airflow.hooks.S3_hook
 
 # Default arguments and can be overwritten at operator initialization
 default_args = {
-        'owner': 'Vijayreddy',
+        'owner': 'kotharv',
         'depends_on_past': False,
         'start_date': datetime(2020,10,31),
         'email': ['@gmail.com'],
