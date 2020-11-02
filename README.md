@@ -1,12 +1,8 @@
-# NYCTaxi_Trip-Fare_Analytics
-Data model design and analysis for NYC Taxi trip data
+# Airflow_DAG-ETL
+Setup workflow to capture the response and upload to S3 as json file.  Covnert JSON to CSV with transformation.
 
 # Introduction & Goals
-The Project is design of a data model to perform data analysis and Visualization from semi-structured data.
-Other data factors that has been taken in to account are,
-**scale with data size**, 
-**performance** and 
-**develop predictive analytic models**
+To write a DAG ( Dynamic Acyclic Graph ) to orchestate the workflow of below tasks on Airflow.
 
 
 # Contents
@@ -17,9 +13,7 @@ Other data factors that has been taken in to account are,
 - [Pipelines](#pipelines)
   - Data Analysis
       - [Python](Code/NYC_Taxi_Trip_DataAnalysis.ipynb)
-      - [SQL](Code/EDA.sql)
-      - [Performance](Images/)
-  - [Visualizations](Images/)
+      - [Self-Check](Images/)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
 
@@ -27,17 +21,7 @@ Other data factors that has been taken in to account are,
 # The Data Set
 ### Explain the data set
 
-The dataset is about NYC taxi operations for year 2013, each row corresponds to a single taxi trip.
-
-I selected a week worth of data to support the data model and analytics project.
-
-Below is the table of some of the non self-explanatory column names,
-
-| Attribute        | Description   |        
-| ------------- |:-------------:| 
-| Medallion     | A permit to operate yellow-taxi |
-| Hack License      | license to drive a vehicle     |
-| Store_and_fwd_flag | flag that indicates if it has stored in device before sending to server      |
+The JSON response from S3 Website enpoints.
 
 
 ### What do you like about it?
@@ -61,13 +45,13 @@ I used an external data related to NYC location names and id's to join with trip
 
 Jupyter NoteBook, VS Code
 
-- AWS Services
+- Wokflow Tool
 
-AWS Glue, AWS Athena, AWS S3
+Apache Airflow
 
 - Programming
 
-Python, SQL
+Python
 
 
 # Pipelines
